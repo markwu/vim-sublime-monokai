@@ -149,10 +149,10 @@ hi! link ModeMsg SublimeYellow
 hi! link MoreMsg SublimeYellow
 hi! link NonText SublimeLightGrey
 call s:h('Normal',       { 'fg': s:white,       'bg': s:black                              })
-call s:h('Pmenu',        { 'fg': s:lightblack,  'bg': s:white                              })
-call s:h('PmenuSbar',    {                                                                 })
+call s:h('Pmenu',        { 'fg': s:white,       'bg': s:lightblack2                        })
+call s:h('PmenuSbar',    { 'fg': s:lightblack,  'bg': s:lightblack                         })
 call s:h('PmenuSel',     { 'fg': s:aqua,        'bg': s:black,    'format': 'reverse,bold' })
-call s:h('PmenuThumb',   { 'fg': s:lightblack,  'bg': s:grey                               })
+call s:h('PmenuThumb',   { 'fg': s:grey,        'bg': s:grey                               })
 hi! link Question SublimeYellow
 call s:h('Search',       { 'format': 'reverse,underline'                                   })
 hi! link SignColumn SublimeLightBlack
